@@ -1,0 +1,222 @@
+/* GENERAL STYLE */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    color: #0a2a43;
+}
+
+/* HEADER */
+.main-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1a73e8, #0ec18f);
+    color: white;
+}
+.main-header h1 {
+    margin: 0;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.main-header h2 {
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+/* SUB HEADER */
+.sub-header {
+    background-color: #e6f4f1;
+    padding: 12px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.sub-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.sub-header li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.sub-header a {
+    text-decoration: none;
+    color: #0a2a43;
+    font-weight: 600;
+}
+
+/* BODY LINK LIST */
+.content {
+    padding: 40px 20px;
+}
+.link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+.card {
+    display: block;
+    padding: 20px;
+    background-color: #f4fbff;
+    border-left: 6px solid #1a73e8;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #0a2a43;
+    transition: 0.3s ease;
+    font-size: 1.1rem;
+}
+.card:hover {
+    background-color: #e3f7ff;
+    transform: translateX(5px);
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    padding: 15px 0;
+    background-color: #2f2f2f;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .main-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .card {
+        font-size: 1rem;
+        padding: 16px;
+    }
+}
+
+
+
+/* TITLE DI HALAMAN DOKUMENTASI */
+.section-title {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    color: #0a2a43;
+}
+
+/* PHOTO GRID */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo-card {
+    background: #f4fbff;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+    border: 1px solid #d9eaf7;
+    transition: 0.3s ease;
+}
+
+.photo-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.photo-card p {
+    margin: 10px 0 0 0;
+    font-weight: 600;
+}
+
+.photo-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+}
+
+
+
+
+
+/* FOTO PROFIL BULAT DI HEADER */
+.profile-photo {
+    width: 90px;               /* bisa Anda kecilkan/besarkan */
+    height: 90px;
+    border-radius: 50%;        /* membuat foto menjadi bulat */
+    object-fit: cover;         /* memotong foto agar proporsional */
+    border: 3px solid white;   /* biar terlihat rapi */
+    margin: 15px auto 5px;     /* posisi tengah */
+    display: block;            /* memastikan center */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================
+   HALAMAN POST
+============================ */
+
+.post-container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 0 20px 60px;
+}
+
+.post-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #003c7c; /* biru elegan */
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.post-date {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.post-content {
+  line-height: 1.7;
+  color: #222;
+  font-size: 1.05rem;
+}
+
+.post-content h3 {
+  margin-top: 30px;
+  color: #005b52; /* hijau gelap */
+}
+
+.post-content blockquote {
+  margin: 25px 0;
+  padding: 15px 20px;
+  border-left: 5px solid #0077aa;
+  background: #f0faff;
+  font-style: italic;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #0066cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
