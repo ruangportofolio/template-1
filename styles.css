@@ -96,7 +96,7 @@ footer {
 
 
 
-/* TITLE DI HALAMAN DOKUMENTASI */
+/* TITLE HALAMAN DOKUMENTASI */
 .section-title {
     text-align: center;
     font-size: 1.6rem;
@@ -141,7 +141,7 @@ footer {
 
 
 
-/* FOTO PROFIL BULAT DI HEADER */
+/* FOTO PROFIL HEADER */
 .profile-photo {
     width: 90px;               /* bisa Anda kecilkan/besarkan */
     height: 90px;
@@ -220,3 +220,4 @@ footer {
 .back-link:hover {
   text-decoration: underline;
 }
+
